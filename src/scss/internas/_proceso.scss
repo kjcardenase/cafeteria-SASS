@@ -3,10 +3,19 @@
 
 .proceso-cafe {
     margin-bottom: v.$separacion;
+
     @include m.tablet {
         display: flex;
         gap: v.$separacion;
         align-items: center;
+    }
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    &:nth-child(even) {
+        .texto {
+            order: -1;
+        }
     }
 
     .imagen,
@@ -27,7 +36,7 @@
                 display: block;
                 width: 50%;
                 height: 5px;
-                background-color: v.$secuandario;
+                background-color: v.$secundario;
             }
         }
     }
