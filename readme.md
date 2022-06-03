@@ -2,4 +2,4 @@
 
 ## Link:
 
-https://cafeteria-sasss.vercel.app/
+https://cafeteria-sass.vercel.app/
